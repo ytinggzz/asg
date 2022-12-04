@@ -62,4 +62,17 @@ nav{
     font-size: 60px;
 }
 
+.button{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    background: transparent;
+    overflow: hidden;
+    color: white;
+    padding: 12px 30px;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
 
