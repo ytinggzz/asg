@@ -77,4 +77,12 @@ nav{
     transition: 0.5s;
 }
 
+.button:hover{
+    border: 1px solid white;
+    background: white;
+    background: 1s;
+    color: pink;
+}
+
+
 
