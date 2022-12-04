@@ -116,5 +116,17 @@ nav{
     margin-left: 130px;
 }
 
+.content{
+    position: absolute;
+    display: flex;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    float: right;
+    margin-left: 180px;
+    margin-top: 150px;
+    line-height: 30px;
+}
+
 
 
