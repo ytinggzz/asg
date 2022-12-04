@@ -43,6 +43,11 @@ nav{
     transition: all 0.3s ease;
 }
 
+.nav_bar li a:hover{
+    background: white;
+    color: pink;
+}
+
 .logo img{
     float: left;
     height: 40px;   
