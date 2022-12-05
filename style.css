@@ -345,6 +345,7 @@ nav{
 
 .footer{
     padding: 40px 0;
+    
 }
 
 .social{
@@ -375,6 +376,13 @@ nav{
 
 .footer ul li a:hover{
     opacity: 1;
+}
+
+.footer .copyright{
+    margin-top: 15;
+    text-align: center;
+    font-size: 13px;
+    color: pink;
 }
 
 .twitter{
