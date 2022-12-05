@@ -301,6 +301,33 @@ nav{
     padding: 50px 8%;
 }
 
+.fullpic{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.fullpic img{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.fullpic span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
 .picture{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
