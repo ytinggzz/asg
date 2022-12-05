@@ -176,6 +176,17 @@ nav{
     height: 500px;
 }
 
+.content3{
+    position: relative;
+    display: flex;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    float: right;
+    margin-right: 25px;
+    width: 300px;
+    margin-top: -250px;
+}
 
 
 
