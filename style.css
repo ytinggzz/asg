@@ -83,10 +83,10 @@ nav{
 }
 
 .button:hover{
-    border: 1px solid white;
-    background: white;
-    background: 1s;
-    color: pink;
+        border: 1px solid white;
+        background: white;
+        background: 1s;
+        color: pink;
 }
 
 .pg2{
@@ -374,10 +374,14 @@ nav{
     text-decoration: none;
     color: inherit;
     opacity: 0.8;
+    padding: 3px 10px;
 }
 
 .footer ul li a:hover{
     opacity: 1;
+    background: pink;
+    color: white;
+    border-radius: 5px;
 }
 
 .footer .copyright{
@@ -401,4 +405,6 @@ nav{
 
 .twitter:hover{
     opacity: 0.9;
-}
+    transform: scale(1.2);
+    transform: rotate(25deg);
+    transition: 0.5s;
