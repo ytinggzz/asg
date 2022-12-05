@@ -220,6 +220,18 @@ nav{
     width: 300px;
 }
 
+.content4 h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.content4 p{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+
 
 
 
