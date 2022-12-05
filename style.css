@@ -157,6 +157,18 @@ nav{
     margin-left: 50px;
 }
 
+.content2 h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.content2 p{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+
 
 
 
