@@ -128,6 +128,17 @@ nav{
     line-height: 30px;
 }
 
+.content h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.content p{
+    font-size: 20px;
+    color: white;
+}
+
 .synopsisimg img{
     width: 40%;
     float: right;
