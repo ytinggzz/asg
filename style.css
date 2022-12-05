@@ -243,4 +243,9 @@ nav{
     position: relative;
 }
 
+.charactersimg img{
+    height: 500px;
+    margin-left: 40px;
+}
+
 
