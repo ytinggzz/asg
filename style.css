@@ -364,3 +364,7 @@ nav{
     margin: 0 8x;
     opacity: 0.75;
 }
+
+.twitter:hover{
+    opacity: 0.9;
+}
