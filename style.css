@@ -172,6 +172,7 @@ nav{
 .youtube iframe{
     display: flex;
     margin-top: 100px;
+    margin-left: 30px;
     width: 800px;
     height: 500px;
 }
@@ -185,7 +186,7 @@ nav{
     float: right;
     margin-right: 25px;
     width: 300px;
-    margin-top: -250px;
+    margin-top: -310px;
 }
 
 .content3 h1{
@@ -200,6 +201,7 @@ nav{
     line-height: 25px;
 }
 
+.
 
 
 
