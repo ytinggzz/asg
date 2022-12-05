@@ -208,6 +208,18 @@ nav{
     margin-right: 20px;
 }
 
+.content4{
+    position: absolute;
+    display: flex;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    float: right;
+    margin-left: 20px;
+    margin-top: 350px;
+    width: 300px;
+}
+
 
 
 
