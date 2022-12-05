@@ -25,45 +25,68 @@
 </header>
 <section class="gallery"> 
     <div class="container">
-        <div class="picture">
-            <img src="images/0.png">
-            <img src="images/1.png">
-            <img src="images/2.png">
-            <img src="images/3.png">
-            <img src="images/4.png">
-            <img src="images/5.png">
-            <img src="images/6.png">
-            <img src="images/7.png">
-            <img src="images/8.png">
-            <img src="images/9.png">
-            <img src="images/11.png">
-            <img src="images/12.png">
-            <img src="images/13.png">
-            <img src="images/14.png">
-            <img src="images/16.png">
-            <img src="images/17.png">
-            <img src="images/18.png">
-            <img src="images/19.png">
-            <img src="images/21.png">
-            <img src="images/22.png">
-            <img src="images/23.png">
-            <img src="images/24.png">
-            <img src="images/25.png">
-            <img src="images/26.png">
-            <img src="images/27.png">
-            <img src="images/28.png">
-            <img src="images/29.png">
-            <img src="images/31.png">
-            <img src="images/32.png">
-            <img src="images/33.png">
-            <img src="images/34.png">
-            <img src="images/35.png">
-            <img src="images/36.png">
-            <img src="images/37.png">
-            <img src="images/38.png">
-            <img src="images/39.png">
-            <img src="images/40.png">
-            <img src="images/41.png">
-            <img src="images/42.png">
-            <img src="images/43.png">
+        <div class="fullpic" id="fullimgbox">
+            <img src="images/0.png" id="fullimg">
+            <span onclick="closeFullimg()">X</span>
         </div>
+        <div class="picture">
+            <img src="images/0.png" onclick="openFullimg(this.src)">
+            <img src="images/1.png" onclick="openFullimg(this.src)">
+            <img src="images/2.png" onclick="openFullimg(this.src)">
+            <img src="images/3.png" onclick="openFullimg(this.src)">
+            <img src="images/4.png" onclick="openFullimg(this.src)">
+            <img src="images/5.png" onclick="openFullimg(this.src)">
+            <img src="images/6.png" onclick="openFullimg(this.src)">
+            <img src="images/7.png" onclick="openFullimg(this.src)">
+            <img src="images/8.png" onclick="openFullimg(this.src)">
+            <img src="images/9.png" onclick="openFullimg(this.src)">
+            <img src="images/10.png" onclick="openFullimg(this.src)">
+            <img src="images/11.png" onclick="openFullimg(this.src)">
+            <img src="images/12.png" onclick="openFullimg(this.src)">
+            <img src="images/13.png" onclick="openFullimg(this.src)">
+            <img src="images/14.png" onclick="openFullimg(this.src)">
+            <img src="images/15.png" onclick="openFullimg(this.src)">
+            <img src="images/16.png" onclick="openFullimg(this.src)">
+            <img src="images/17.png" onclick="openFullimg(this.src)">
+            <img src="images/18.png" onclick="openFullimg(this.src)">
+            <img src="images/19.png" onclick="openFullimg(this.src)">
+            <img src="images/20.png" onclick="openFullimg(this.src)">
+            <img src="images/21.png" onclick="openFullimg(this.src)">
+            <img src="images/22.png" onclick="openFullimg(this.src)">
+            <img src="images/23.png" onclick="openFullimg(this.src)">
+            <img src="images/24.png" onclick="openFullimg(this.src)">
+            <img src="images/25.png" onclick="openFullimg(this.src)">
+            <img src="images/26.png" onclick="openFullimg(this.src)">
+            <img src="images/27.png" onclick="openFullimg(this.src)">
+            <img src="images/28.png" onclick="openFullimg(this.src)">
+            <img src="images/29.png" onclick="openFullimg(this.src)">
+            <img src="images/30.png" onclick="openFullimg(this.src)">
+            <img src="images/31.png" onclick="openFullimg(this.src)">
+            <img src="images/32.png" onclick="openFullimg(this.src)">
+            <img src="images/33.png" onclick="openFullimg(this.src)">
+            <img src="images/34.png" onclick="openFullimg(this.src)">
+            <img src="images/35.png" onclick="openFullimg(this.src)">
+            <img src="images/36.png" onclick="openFullimg(this.src)">
+            <img src="images/37.png" onclick="openFullimg(this.src)">
+            <img src="images/38.png" onclick="openFullimg(this.src)">
+            <img src="images/39.png" onclick="openFullimg(this.src)">
+            <img src="images/40.png" onclick="openFullimg(this.src)">
+            <img src="images/41.png" onclick="openFullimg(this.src)">
+            <img src="images/42.png" onclick="openFullimg(this.src)">
+            <img src="images/43.png" onclick="openFullimg(this.src)">
+        </div>
+    <script>
+        var Fullimgbox = document.getElementById("fullimgbox")
+        var Fullimg = document.getElementById("fullimg")
+
+        function openFullimg(pic){
+            Fullimgbox.style.display = "flex";
+            Fullimg.src = pic;
+        }
+        function closeFullimg(){
+            Fullimgbox.style.display = "none";
+        }
+    </script>
+
+    </div>
+</section>
