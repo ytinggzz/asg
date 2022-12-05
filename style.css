@@ -276,3 +276,7 @@ nav{
     font-style: bold;
     color: white;
 }
+
+.bold{
+    font-weight: bold;
+}
