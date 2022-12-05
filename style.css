@@ -362,7 +362,7 @@ nav{
     margin-bottom: 0;
 }
 
-.footer li{
+.footer ul li{
     display: inline-block;
     padding: 0 15px;
 }
@@ -371,6 +371,10 @@ nav{
     text-decoration: none;
     color: inherit;
     opacity: 0.8;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
 }
 
 .twitter{
