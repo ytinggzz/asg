@@ -117,13 +117,13 @@ nav{
 }
 
 .content{
-    position: absolute;
+    position: relative;
     display: flex;
     display: inline-block;
     width: 40%;
     text-align: center;
     float: right;
-    margin-left: 180px;
+    margin-right: 180px;
     margin-top: 150px;
     line-height: 30px;
 }
@@ -145,6 +145,7 @@ nav{
     margin-right: 55px;
     margin-top: 680px;
 }
+
 
 
 
