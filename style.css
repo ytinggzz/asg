@@ -102,19 +102,19 @@ nav{
 
 .pg2{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/bg2.jpg");
+    position: relative;
     min-height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
     background-attachment: fixed;
 }
 
 .box{
     position: absolute;
-    width: 100%;
     background-color: rgba(0,0,0,0.5);
+    width: 100%;
     justify-content: space-between;
     padding: 50px;
     z-index: -1;
@@ -127,9 +127,9 @@ nav{
 }
 
 .content{
-    position: relative;
     display: flex;
     display: inline-block;
+    position: relative;
     width: 40%;
     text-align: center;
     float: right;
@@ -180,7 +180,7 @@ nav{
 }
 
 .youtube iframe{
-    display: flex;
+    position: relative;
     margin-top: 100px;
     margin-left: 30px;
     width: 800px;
@@ -189,8 +189,6 @@ nav{
 
 .content3{
     position: relative;
-    display: flex;
-    display: inline-block;
     width: 40%;
     text-align: center;
     float: right;
@@ -220,15 +218,13 @@ nav{
 }
 
 .content4{
-    position: absolute;
-    display: flex;
-    display: inline-block;
+    position: relative;
     width: 40%;
     text-align: center;
     float: right;
-    margin-left: 20px;
-    margin-top: 350px;
-    width: 300px;
+    margin-left: 50px;
+    margin-top: 300px;
+    margin-bottom: 150px;
 }
 
 .content4 h1{
