@@ -243,9 +243,21 @@ nav{
     position: relative;
 }
 
+.characters{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: space-between;
+    padding: 50px;
+    z-index: -1;
+    color: white;
+    line-height: 30px;
+}   
+
 .charactersimg img{
     height: 500px;
     margin-left: 40px;
 }
+
 
 
