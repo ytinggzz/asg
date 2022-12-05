@@ -342,3 +342,13 @@ nav{
 .picture img:hover{
     transform: scale(1.2);
 }
+
+.footer{
+    padding: 40px 0;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
