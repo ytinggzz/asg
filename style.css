@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }   
 
+@font-face {
+    font-family: "Ngnl";
+    src: url(font/no_game_no_life_logo_font__free_dl__by_japanyoshi-d7o4t6u.ttf);
+}
 .pg1{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/bg1.webp");
     height: 100vh;
@@ -343,11 +347,10 @@ nav{
     transform: scale(1.2);
 }
 
-.footer{
+footer{
     padding: 40px 0;
     text-align: center;
     color: pink;
-
 }
 
 .social{
@@ -356,7 +359,7 @@ nav{
     color: white;
 }
 
-.footer ul{
+footer ul{
     margin-top: 0;
     padding: 0;
     list-style: none;
@@ -365,26 +368,26 @@ nav{
     margin-bottom: 0;
 }
 
-.footer ul li{
+footer ul li{
     display: inline-block;
     padding: 0 15px;
 }
 
-.footer ul li a{
+footer ul li a{
     text-decoration: none;
     color: inherit;
     opacity: 0.8;
     padding: 3px 10px;
 }
 
-.footer ul li a:hover{
+footer ul li a:hover{
     opacity: 1;
     background: pink;
     color: white;
     border-radius: 5px;
 }
 
-.footer .copyright{
+footer .copyright{
     margin-top: 15;
     text-align: center;
     font-size: 13px;
