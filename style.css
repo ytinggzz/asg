@@ -311,3 +311,7 @@ nav{
     width: 100% ;
     cursor: pointer;
 }
+
+.picture img:hover{
+    transform: scale(1.2);
+}
