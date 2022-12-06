@@ -1,7 +1,8 @@
-const burger = document.querySelector(".burger");
-const navbar = document.querySelector(".nav_bar");
+const bar = document.getElementById("bar")
+const navbar = document.getElementsByClassName("nav_bar")
 
-burger.addEventListener("click", () => {
-    burger.classList.toggle("active");
-    navbar.classList.toggle("active");
-})
+if (bar){
+    bar.addEventListener("click", () => {
+        nav.classList.add("active")
+    })
+}
