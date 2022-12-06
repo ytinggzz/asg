@@ -19,49 +19,40 @@
     background-attachment: fixed;
 }
 
-.burger{
-    display: none;
-    cursor: pointer;
-}
-
-.menu{
-    display: block;
-    height: 3px;
-    width: 30px;
-    margin: 5px auto;
-    background-color: white;
-}
-
 nav{
     display: flex;
-    padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    padding: 2% 6%;
 }
 
 .nav_bar{
-    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav_bar li{
+    list-style: none;
+    padding: 0 20px;
     display: inline-block;
 }
 
 .nav_bar li a{
-    color: white;
     text-decoration: none;
-    position: relative;
-    align-items: center;
-    padding: 8px 20px;
     font-size: 25px;
+    font-weight: 300;
+    color: white;
     letter-spacing: 3px;
     border-radius: 5px;
+    padding: 5px 20px;
     transition: all 0.3s ease;
     font-family: "Ngnl", sans-serif;
     text-transform: uppercase;
 }
 
-.nav_bar li a:hover{
+.nav_bar li a:hover,
+.nav_bar li a.active{
     background: white;
     color: pink;
     font-weight: bold;
