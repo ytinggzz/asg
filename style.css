@@ -440,10 +440,16 @@ footer .copyright{
         box-shadow: 0 40px 60px rgba(0,0,0,0.1);
         padding: 80px 0 0 10px;
     }
-
     .nav_bar li{
         margin-bottom: 25px;
 
     }
-    
+    .burger{
+        display: flex;
+        align-items: center;
+    }
+    .burger i{
+        color: white;
+        font-size: 24px;
+    }
 }
