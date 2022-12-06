@@ -96,7 +96,7 @@ nav{
 .button:hover{
         border: 1px solid white;
         background: white;
-        background: 1s;
+        background: 1;
         color: pink;
 }
 
@@ -112,7 +112,7 @@ nav{
 }
 
 .box{
-    position: absolute;
+    position: relative;
     background-color: rgba(0,0,0,0.5);
     width: 100%;
     justify-content: space-between;
@@ -183,8 +183,8 @@ nav{
     position: relative;
     margin-top: 100px;
     margin-left: 30px;
-    width: 800px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
 }
 
 .content3{
@@ -193,7 +193,6 @@ nav{
     text-align: center;
     float: right;
     margin-right: 25px;
-    width: 300px;
     margin-top: -310px;
 }
 
@@ -210,20 +209,19 @@ nav{
 }
 
 .youtube2 iframe{
-    width: 800px;
-    height: 500px;
-    margin-top: 140px;
+    width: 700px;
+    height: 400px;
+    margin-top: -240px;
     float: right;
-    margin-right: 20px;
 }
 
 .content4{
     position: relative;
-    width: 40%;
+    width: 47%;
     text-align: center;
-    float: right;
-    margin-left: 50px;
+    line-height: 20px;
     margin-top: 300px;
+    margin-left: 50px;
     margin-bottom: 150px;
 }
 
@@ -282,7 +280,6 @@ nav{
 
 .chartext span{
     font-size: 20px;
-    font-style: bold;
     color: white;
 }
 
@@ -368,6 +365,7 @@ footer{
     text-align: center;
     padding-bottom: 25px;
     color: white;
+    position: relative;
 }
 
 footer ul{
@@ -386,7 +384,7 @@ footer ul li{
 
 footer ul li a{
     text-decoration: none;
-    color: inherit;
+    color: pink;
     opacity: 0.8;
     padding: 3px 10px;
 }
@@ -399,7 +397,7 @@ footer ul li a:hover{
 }
 
 footer .copyright{
-    margin-top: 15;
+    margin-top: 15px;
     text-align: center;
     font-size: 13px;
     color: pink;
@@ -407,7 +405,6 @@ footer .copyright{
 
 .twitter{
     font-size: 20px;
-    color: inherit;
     width: 50px;
     height: 50px;
     line-height: 38px;
@@ -422,3 +419,4 @@ footer .copyright{
     transform: scale(1.2);
     transform: rotate(25deg);
     transition: 0.5s;
+}
