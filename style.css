@@ -20,25 +20,15 @@
 }
 
 .burger{
-    width: 90%;
-    margin: 0 auto;
-}
-
-.burgercontainer{
-    float: right;
-    height: 25px;
-    width: 40px; 
-    margin-top: 33px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    display: none;
     cursor: pointer;
 }
 
 .menu{
+    display: block;
     height: 3px;
     width: 30px;
+    margin: 5px auto;
     background-color: white;
 }
 
@@ -64,7 +54,6 @@ nav{
     align-items: center;
     padding: 8px 20px;
     font-size: 25px;
-    font-weight: bold;  
     letter-spacing: 3px;
     border-radius: 5px;
     transition: all 0.3s ease;
@@ -75,6 +64,7 @@ nav{
 .nav_bar li a:hover{
     background: white;
     color: pink;
+    font-weight: bold;
 }
 
 .logo img{
