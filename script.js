@@ -1,8 +1,10 @@
-const bar = document.getElementById("bar")
-const navbar = document.getElementsByClassName("nav_bar")
+var Fullimgbox = document.getElementById("fullimgbox")
+var Fullimg = document.getElementById("fullimg")
 
-if (bar){
-    bar.addEventListener("click", () => {
-        nav.classList.add("active")
-    })
+function openFullimg(pic){
+    Fullimgbox.style.display = "flex";
+    Fullimg.src = pic;
+}
+function closeFullimg(){
+    Fullimgbox.style.display = "none";
 }
