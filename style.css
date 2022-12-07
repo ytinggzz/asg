@@ -227,13 +227,13 @@ nav{
 .youtube2 iframe{
     width: 700px;
     height: 400px;
-    margin-top: -240px;
+    margin-top: 100px;
     float: right;
 }
 
 .content4{
     position: relative;
-    width: 47%;
+    width: 40%;
     text-align: center;
     line-height: 20px;
     margin-top: 300px;
@@ -273,7 +273,6 @@ nav{
     background-color: rgba(0,0,0,0.5);
     justify-content: space-between;
     padding: 50px;
-    z-index: -1;
     color: white;
     line-height: 30px;
 }   
@@ -372,7 +371,6 @@ footer{
     padding: 40px 0;
     text-align: center;
     color: pink;
-    background-color: rgba(0,0,0,0.5);
 }
 
 .social{
