@@ -8,9 +8,10 @@ This website is about an anime, No Game No Life. This websites consists the syno
 
 - As a person who is looking for a new anime to watch, I can have a general idea what this anime is about.
 
-- As a person who wants to know more information about specific chracters, I can get the information from the 
+- As a person who wants to know more information about specific chracters, I can get the information from the website.
 
-https://xd.adobe.com/view/4e439e4a-d1b3-45ee-8b7c-4b3a19c33ee3-1b10/
+[Wireframe](https://xd.adobe.com/view/4e439e4a-d1b3-45ee-8b7c-4b3a19c33ee3-1b10/)
+- The wireframe of my website is done through Adobe XD
 
 ## Technologies used
 - html
@@ -29,6 +30,7 @@ https://xd.adobe.com/view/4e439e4a-d1b3-45ee-8b7c-4b3a19c33ee3-1b10/
 - navbar: Clicking on the "" button brings you to the About Page of the website
 
 - navbar: Clicking on the "About" button brings you to the About Page of the website
+
 - navbar: Clicking on the "About" button brings you to the About Page of the website
 
 ## Features
@@ -45,7 +47,16 @@ https://xd.adobe.com/view/4e439e4a-d1b3-45ee-8b7c-4b3a19c33ee3-1b10/
 - Feature 5 - have a twitter icon which can lead users to the official twiiter account of the anime
 
 ### Features Left to Implement
-- 
+- A community where people can communicate about this anime
+- Incude more characters into the website
+
+- Seperate the gallery into sections(like which episode does this scene comes from)
+
+- Media query for the About Page 
+
+- Include the goods that the anime sell
+
+- By pressing on the character, can lead ro a page will detailed information about the specific character that have just benn clicked
 
 ## Credits
 ### Content
@@ -84,3 +95,4 @@ https://xd.adobe.com/view/4e439e4a-d1b3-45ee-8b7c-4b3a19c33ee3-1b10/
 - The photo used for `social` was obtained from [Pinterest](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F706783735265520965%2F&psig=AOvVaw2Xmldql3wZWJy1AH8y_aDD&ust=1670465924236000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOCL99G45vsCFQAAAAAdAAAAABAE).
 
 ### Acknowledgements
+- I received the inspiration for this project from [bnacg](https://www.bnacg.com/dm/12312.html).
