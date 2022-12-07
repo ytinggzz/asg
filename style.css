@@ -46,16 +46,15 @@ nav{
     text-transform: uppercase;
 }
 
-.nav_bar li a:hover,
-.nav_bar li a.active{
+.nav_bar li a:hover{
     background: white;
     color: pink;
     font-weight: bold;
 }
 
-.burger{
-    display: none;
-    align-items: center;
+.nav_bar li a.active{
+    color: pink;
+    font-weight: bold;
 }
 
 .logo img{
@@ -122,7 +121,6 @@ nav{
     width: 100%;
     justify-content: space-between;
     padding: 50px;
-    z-index: -1;
 }
 
 .abtimg img{
@@ -144,14 +142,18 @@ nav{
 }
 
 .content h1{
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin-bottom: 14px;
+    font-family: "Ngnl", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .content p{
     font-size: 20px;
     color: white;
+    font-family: PT Serif,serif;
 }
 
 .synopsisimg img{
@@ -173,15 +175,19 @@ nav{
 }
 
 .content2 h1{
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin-bottom: 14px;
+    letter-spacing: 2px;
+    font-family: "Ngnl", sans-serif;
+    text-transform: uppercase;
 }
 
 .content2 p{
     font-size: 20px;
     color: white;
     line-height: 30px;
+    font-family: PT Serif,serif;
 }
 
 .youtube iframe{
@@ -199,18 +205,23 @@ nav{
     float: right;
     margin-right: 25px;
     margin-top: -310px;
+    
 }
 
 .content3 h1{
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin-bottom: 14px;
+    letter-spacing: 2px;
+    font-family: "Ngnl", sans-serif;
+    text-transform: uppercase;
 }
 
 .content3 p{
     font-size: 20px;
     color: white;
     line-height: 25px;
+    font-family: PT Serif,serif;
 }
 
 .youtube2 iframe{
@@ -227,19 +238,22 @@ nav{
     line-height: 20px;
     margin-top: 300px;
     margin-left: 50px;
-    margin-bottom: 150px;
 }
 
 .content4 h1{
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin-bottom: 14px;
+    font-family: "Ngnl", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .content4 p{
     font-size: 20px;
     color: white;
     line-height: 30px;
+    font-family: PT Serif,serif;
 }
 
 .pg3{
@@ -387,6 +401,8 @@ footer ul li a{
     color: pink;
     opacity: 0.8;
     padding: 3px 10px;
+    font-family: PT Serif,serif;
+    letter-spacing: 1px;
 }
 
 footer ul li a:hover{
@@ -401,6 +417,8 @@ footer .copyright{
     text-align: center;
     font-size: 13px;
     color: pink;
+    font-family: PT Serif,serif;
+    letter-spacing: 1px;
 }
 
 .twitter{
